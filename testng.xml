@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_Admin"/>
+      <class name="org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_TrainerHeader"/>
+      <class name="org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_PlacementOfficer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

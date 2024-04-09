@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_TrainerHeader">
+        <methods>
+          <include name="Trainervali_1"/>
+          <include name="TrainerBulk_7"/>
+          <include name="Learnerform_2"/>
+          <include name="Trainlogvalid_1"/>
+          <include name="TrainerBulk_4"/>
+          <include name="Learnerform_4"/>
+          <include name="Trainloginvalid_1"/>
+          <include name="TrainerBulk_1"/>
+          <include name="Trainloginvalid_3"/>
+          <include name="LearnerAdd_1"/>
+          <include name="Trainloginvalid_2"/>
+          <include name="Trainloginvalid_4"/>
+          <include name="testmain"/>
+        </methods>
+      </class> <!-- org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_TrainerHeader -->
+      <class name="org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_PlacementOfficer">
+        <methods>
+          <include name="PofficerUpdate_1"/>
+          <include name="PofficerUpdate_4"/>
+          <include name="testmain"/>
+        </methods>
+      </class> <!-- org.ictkerala.Test_ictakLearnerTrackerApp.TestClass_PlacementOfficer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
